@@ -123,6 +123,6 @@ D:.
 
 [一位学长的 B 站主页](https://space.bilibili.com/506973721/?spm_id_from=333.999.0.0)里面有全套的讲解视频，从单个部件到整机，从做什么到如何做，非常详细。
 
-[他的 Github 项目](https://github.com/Liyanhao1209/Computer-Organization-Overall-Design)，我们的时序问题以及带预置位的计数器就是从这里借鉴~~（抄）~~来的。
+[他的 Github 项目](https://github.com/Liyanhao1209/Computer-Organization-Overall-Design)，我们的时序问题以及带预置位的计数器就是从这里借鉴~~(抄)~~来的。
 
 _可以借鉴参考整个项目的各部分设计，但请不要直接抄袭，并用于学校的作业或课程设计！作者保留了开源的所有记录以及声明，由于抄袭产生的后果作者概不负责！_
