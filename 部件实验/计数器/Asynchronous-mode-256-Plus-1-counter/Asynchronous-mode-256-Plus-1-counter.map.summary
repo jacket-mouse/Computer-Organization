@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat May 11 11:45:49 2024
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : Asynchronous-mode-256-Plus-1-counter
+Top-level Entity Name : Asynchronous-mode-256-Plus-1-counter
+Family : Cyclone II
+Total logic elements : 48
+    Total combinational functions : 48
+    Dedicated logic registers : 8
+Total registers : 8
+Total pins : 19
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

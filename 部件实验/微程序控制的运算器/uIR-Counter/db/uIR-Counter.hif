@@ -1,0 +1,193 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+945
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+uIR-Counter
+# storage
+db|uIR-Counter.(0).cnf
+db|uIR-Counter.(0).cnf
+# case_insensitive
+# source_file
+uIR-Counter.bdf
+586139e54d374fa6ad995b3394ff6cf
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+SHR_8ASR
+# storage
+db|uIR-Counter.(1).cnf
+db|uIR-Counter.(1).cnf
+# case_insensitive
+# source_file
+SHR_8ASR.bdf
+a8d4776aefe152e6dad5f7ee35dbefa8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+SHR_8ASR:inst6
+}
+# macro_sequence
+
+# end
+# entity
+register-8
+# storage
+db|uIR-Counter.(2).cnf
+db|uIR-Counter.(2).cnf
+# case_insensitive
+# source_file
+..|register-8|register-8.bdf
+137be87483bc8258a47e82c18a32491
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+register-8:inst5
+register-8:inst4
+register-8:inst3
+}
+# macro_sequence
+
+# end
+# entity
+register-4
+# storage
+db|uIR-Counter.(3).cnf
+db|uIR-Counter.(3).cnf
+# case_insensitive
+# source_file
+..|register-8|register-4.bdf
+78bb682ba99b280df105b8d7df6b80
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+register-8:inst5|register-4:inst
+register-8:inst5|register-4:inst1
+register-8:inst4|register-4:inst
+register-8:inst4|register-4:inst1
+register-8:inst3|register-4:inst
+register-8:inst3|register-4:inst1
+}
+# macro_sequence
+
+# end
+# entity
+ALU-8
+# storage
+db|uIR-Counter.(4).cnf
+db|uIR-Counter.(4).cnf
+# case_insensitive
+# source_file
+ALU-8.bdf
+1464ead492848d89d849452e1f2c96cc
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-8:inst2
+}
+# macro_sequence
+
+# end
+# entity
+74181
+# storage
+db|uIR-Counter.(5).cnf
+db|uIR-Counter.(5).cnf
+# case_insensitive
+# source_file
+..|..|setting|computer|quartus|quartus|libraries|others|maxplus2|74181.bdf
+5a7a42864d75db2f39a1f2da31e3e53
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-8:inst2|74181:inst
+ALU-8:inst2|74181:inst20
+}
+# macro_sequence
+
+# end
+# entity
+74182
+# storage
+db|uIR-Counter.(6).cnf
+db|uIR-Counter.(6).cnf
+# case_insensitive
+# source_file
+..|..|setting|computer|quartus|quartus|libraries|others|maxplus2|74182.bdf
+7e848f93ad7899d68043667228e561f6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU-8:inst2|74182:inst2
+}
+# macro_sequence
+
+# end
+# entity
+Asynchronous-mode-256-Plus-1-counter
+# storage
+db|uIR-Counter.(7).cnf
+db|uIR-Counter.(7).cnf
+# case_insensitive
+# source_file
+..|Asynchronous-mode-256-Plus-1-counter|Asynchronous-mode-256-Plus-1-counter.bdf
+8d834fce543232c13fee9641cfb997a3
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Asynchronous-mode-256-Plus-1-counter:inst1
+}
+# macro_sequence
+
+# end
+# complete
+

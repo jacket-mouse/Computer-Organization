@@ -1,0 +1,87 @@
+|Shift-8
+Q7 <= Shift-4:inst.Q3
+A7 => Shift-4:inst.A3
+A6 => Shift-4:inst.A2
+A5 => Shift-4:inst.A1
+A4 => Shift-4:inst.A0
+A4 => inst15.IN0
+LM => Shift-4:inst.LM
+LM => inst14.IN0
+LM => Shift-4:inst1.LM
+DM => Shift-4:inst.DM
+DM => Shift-4:inst1.DM
+RM => Shift-4:inst.RM
+RM => Shift-4:inst1.RM
+RM => inst15.IN1
+Q6 <= Shift-4:inst.Q2
+Q5 <= Shift-4:inst.Q1
+Q4 <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst14.IN1
+A3 => Shift-4:inst1.A3
+Q3 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+A2 => Shift-4:inst1.A2
+A1 => Shift-4:inst1.A1
+A0 => Shift-4:inst1.A0
+Q2 <= Shift-4:inst1.Q2
+Q1 <= Shift-4:inst1.Q1
+Q0 <= Shift-4:inst1.Q0
+
+
+|Shift-8|Shift-4:inst
+Q3 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst6.IN0
+A3 => inst10.IN0
+DM => inst6.IN1
+DM => inst9.IN1
+DM => inst12.IN1
+DM => inst15.IN1
+RM => inst7.IN1
+RM => inst10.IN1
+RM => inst13.IN1
+RM => inst16.IN1
+A2 => inst.IN0
+A2 => inst9.IN0
+A2 => inst13.IN0
+LM => inst.IN1
+LM => inst8.IN1
+LM => inst11.IN1
+LM => inst14.IN1
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst8.IN0
+A1 => inst12.IN0
+A1 => inst16.IN0
+Q1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst11.IN0
+A0 => inst15.IN0
+Q0 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Shift-8|Shift-4:inst1
+Q3 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst6.IN0
+A3 => inst10.IN0
+DM => inst6.IN1
+DM => inst9.IN1
+DM => inst12.IN1
+DM => inst15.IN1
+RM => inst7.IN1
+RM => inst10.IN1
+RM => inst13.IN1
+RM => inst16.IN1
+A2 => inst.IN0
+A2 => inst9.IN0
+A2 => inst13.IN0
+LM => inst.IN1
+LM => inst8.IN1
+LM => inst11.IN1
+LM => inst14.IN1
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst8.IN0
+A1 => inst12.IN0
+A1 => inst16.IN0
+Q1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst11.IN0
+A0 => inst15.IN0
+Q0 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,166 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.220 ns
+From           : S2
+To             : register-8:inst5|register-4:inst|inst
+From Clock     : --
+To Clock       : CP2
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 31.555 ns
+From           : Asynchronous-mode-256-Plus-1-counter:inst1|inst25~_emulated
+To             : P7
+From Clock     : CLR
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 15.940 ns
+From           : LM
+To             : LD1
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 17.404 ns
+From           : A6
+To             : Asynchronous-mode-256-Plus-1-counter:inst1|inst23~_emulated
+From Clock     : --
+To Clock       : CLR
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLR'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 48.06 MHz ( period = 20.806 ns )
+From           : Asynchronous-mode-256-Plus-1-counter:inst1|inst25~_emulated
+To             : Asynchronous-mode-256-Plus-1-counter:inst1|inst25~_emulated
+From Clock     : CLR
+To Clock       : CLR
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A4'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 173.34 MHz ( period = 5.769 ns )
+From           : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+To             : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+From Clock     : A4
+To Clock       : A4
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A3'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 173.34 MHz ( period = 5.769 ns )
+From           : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+To             : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+From Clock     : A3
+To Clock       : A3
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A2'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 173.34 MHz ( period = 5.769 ns )
+From           : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+To             : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+From Clock     : A2
+To Clock       : A2
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A1'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 173.34 MHz ( period = 5.769 ns )
+From           : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+To             : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+From Clock     : A1
+To Clock       : A1
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A0'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 173.34 MHz ( period = 5.769 ns )
+From           : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+To             : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+From Clock     : A0
+To Clock       : A0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 173.34 MHz ( period = 5.769 ns )
+From           : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+To             : Asynchronous-mode-256-Plus-1-counter:inst1|inst21~_emulated
+From Clock     : CP
+To Clock       : CP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A6'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 360.10 MHz ( period = 2.777 ns )
+From           : Asynchronous-mode-256-Plus-1-counter:inst1|inst25~_emulated
+To             : Asynchronous-mode-256-Plus-1-counter:inst1|inst25~_emulated
+From Clock     : A6
+To Clock       : A6
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A5'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 360.10 MHz ( period = 2.777 ns )
+From           : Asynchronous-mode-256-Plus-1-counter:inst1|inst23~_emulated
+To             : Asynchronous-mode-256-Plus-1-counter:inst1|inst23~_emulated
+From Clock     : A5
+To Clock       : A5
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLR'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Asynchronous-mode-256-Plus-1-counter:inst1|inst25~_emulated
+To             : Asynchronous-mode-256-Plus-1-counter:inst1|inst25~_emulated
+From Clock     : CLR
+To Clock       : CLR
+Failed Paths   : 5
+
+Type           : Clock Hold: 'CP'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : register-8:inst4|register-4:inst|inst
+To             : register-8:inst5|register-4:inst|inst
+From Clock     : CP
+To Clock       : CP
+Failed Paths   : 72
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 77
+
+--------------------------------------------------------------------------------------
+

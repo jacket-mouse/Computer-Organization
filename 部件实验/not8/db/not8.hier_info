@@ -1,0 +1,19 @@
+|not8
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+P1 => inst.IN0
+Q2 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P2 => inst1.IN0
+Q3 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+P3 => inst2.IN0
+Q4 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+P4 => inst3.IN0
+Q5 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+P5 => inst4.IN0
+Q6 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+P6 => inst5.IN0
+Q7 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+P7 => inst6.IN0
+Q8 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+P8 => inst7.IN0
+
+

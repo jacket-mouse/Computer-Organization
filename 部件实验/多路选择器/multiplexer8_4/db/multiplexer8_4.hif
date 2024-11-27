@@ -1,0 +1,67 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+945
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+multiplexer8_4
+# storage
+db|multiplexer8_4.(0).cnf
+db|multiplexer8_4.(0).cnf
+# case_insensitive
+# source_file
+multiplexer8_4.bdf
+32b35b498c05f9a21bb7e2f4c9d1d6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+multiplexer8_2
+# storage
+db|multiplexer8_4.(1).cnf
+db|multiplexer8_4.(1).cnf
+# case_insensitive
+# source_file
+..|multiplexer|multiplexer8_2.bdf
+7b7aa727abe6cd597e8834f9edaa46
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+multiplexer8_2:inst2
+multiplexer8_2:inst
+multiplexer8_2:inst1
+}
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,10 @@
+|Asynchronous-mode-8-Plus-1-counter
+P2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst2.ACLR
+CLR => inst1.ACLR
+CLR => inst.ACLR
+CLK => inst.CLK
+P1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+P0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+

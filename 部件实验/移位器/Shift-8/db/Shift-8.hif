@@ -1,0 +1,66 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+945
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Shift-8
+# storage
+db|Shift-8.(0).cnf
+db|Shift-8.(0).cnf
+# case_insensitive
+# source_file
+Shift-8.bdf
+9714507c7c36e5991665232611dbfffc
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+Shift-4
+# storage
+db|Shift-8.(1).cnf
+db|Shift-8.(1).cnf
+# case_insensitive
+# source_file
+..|Shift-4|Shift-4.bdf
+ef41f146118b928df7ad9f44b144bf9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Shift-4:inst
+Shift-4:inst1
+}
+# macro_sequence
+
+# end
+# complete
+

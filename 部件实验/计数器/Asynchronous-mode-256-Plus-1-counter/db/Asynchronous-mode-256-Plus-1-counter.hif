@@ -1,0 +1,62 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+945
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Asynchronous-mode-8-Plus-1-counter
+# storage
+db|Asynchronous-mode-256-Plus-1-counter.(1).cnf
+db|Asynchronous-mode-256-Plus-1-counter.(1).cnf
+# case_insensitive
+# source_file
+..|Asynchronous-mode-8-Plus-1-counter|Asynchronous-mode-8-Plus-1-counter.bdf
+158c9bbfef259942c3aa266a293368bf
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+Asynchronous-mode-256-Plus-1-counter
+# storage
+db|Asynchronous-mode-256-Plus-1-counter.(0).cnf
+db|Asynchronous-mode-256-Plus-1-counter.(0).cnf
+# case_insensitive
+# source_file
+Asynchronous-mode-256-Plus-1-counter.bdf
+1cc99c9fe695646cadab78301a7dd0da
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
